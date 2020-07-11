@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+</head>
+<body>
+    <script>
+        var globalnaVar = 'VIdljiva svuda';
+        console.log(globalnaVar);
+        
+        function myFunction() {
+            console.log(globalnaVar);
+        }
+        myFunction();
+        
+        function mojaFunkcija() {
+            var lokalnaVar = 'Samo u okviru funkcije';
+            console.log(lokalnaVar);
+        }
+        mojaFunkcija();
+        
+        function music() {
+            //var rock = 'The BEatles';
+            console.log(rock);
+            var rock = 'The BEatles';
+        }
+        music();
+        
+    </script>
+</body>
+</html>
